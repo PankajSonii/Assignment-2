@@ -1,0 +1,56 @@
+console.log(typeof(1))
+Output: Number
+
+Description:  It will give the (number) output because 1 is fall under arithmatic natural number. It (console.log) represent or print the data type of 1 with the help of (typeof) operator.  
+
+console.log(typeof(1.1))
+Output: Number
+
+Description:  It will give the (number) output. In javaScript there is no need to mention (float) for float value. JavaScript automaticaly detects the float value and perform the action. In "Number" data type all the natural or float numbers falls under in javaScript.  It (console.log) represent or print the data type of 1.1 with the help of (typeof) operator.  
+
+
+console.log(typeof('1.1'))
+Output: String
+
+Description:  It will give the (String) output. Numeric or alphanumeric keywords enclosed in single quote(' ') or double quote(" ") JavaScript automaticaly detects the string value and perform the action accordingly.  It (console.log) represent or print the data type of "1.1" with the help of (typeof) operator.  
+
+
+console.log(typeof(true))
+output: boolean 
+
+Description: It will give the (boolean) output. A JavaScript Boolean represents one of two values: true or false.  It (console.log) represent or print the data type of "1.1" with the help of (typeof) operator.  The Boolean value of undefined is false. The value of Not only undefined but also null, false, NaN, empty string, 0 is also false.
+YES / NO
+ON / OFF
+TRUE / FALSE
+
+
+console.log(typeof(null))
+Output: Object
+
+Description: When you want to explicitly assign a value that means absense of value, you assign null. In JavaScript null is "nothing". It is supposed to be something that doesn't exist. Unfortunately, in JavaScript, the data type of null is an object. You can consider it a bug in JavaScript that typeof null is an object.
+
+
+console.log(typeof(undefined))
+Output: Undefined
+
+Description: It will give the (undefined) output. When you just declare the variable, "undefined" is assigned to a variable by javaScript. The Boolean value of undefined is false. 
+
+
+console.log(typeof([]))
+Output: Object
+
+Description: It will give the (object) output. An array is a type of object in javaScript. Arrays are special kinds of objects. Because of this, you can have variables of different types in the same Array. You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array.
+
+
+console.log(typeof({}))
+Output: Object
+
+Description: It will give the (object) output. In javaScript, the object is a complex data type that allows you to store collections of data. An object contains properties, defined as a key-value pair. A property key (name) is always a string, but the value can be any data type, like strings, numbers, booleans, or complex data types like arrays, function and other objects. Objects can be decleared within curly braces.
+
+
+
+console.log(typeof(NaN))
+
+Output: Number
+
+Description: It will give the (Number) output. In JavaScript, NaN stands for Not a Number. It represents a value which is not a valid number. It can be used to check whether a number entered is a valid number or not a number. Null values represents "no value" or "nothing", it's not even an empty string or zero. It can be used to represent that nothing useful exists. The type of NaN , which stands for Not a Number is, surprisingly, a number. The reason for this is, in computing, NaN is actually technically a numeric data type. However, it is a numeric data type whose value cannot be represented using actual numbers.
